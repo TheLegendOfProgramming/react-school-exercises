@@ -1,0 +1,22 @@
+2g)
+    React uses the key to keep track of nodes between list adds, removes, updates, and reorders.
+
+    Generate an ID. For an array, for example, you could use the index of each object in the array plus a data string in each object.
+
+    Props should be immutable. State always changes, and is ussualy passed to children components. See day 2 answer for more complete explanation.
+
+    In the constructor.
+
+    With the setState() method
+
+4d)
+
+    Passing the valude dynamically.
+
+    With a function binded to the input changing event, where we update the state.
+
+    Preventing the form from it's default functionality of submitting. Mainly because it refreshes the fucking page, which means your js doesn't work and you get mad.
+
+    Because you work with your data in the same view. And maybe you route to a different view with react router, but I haven't learned that yet.
+
+    if statements. (or switch)

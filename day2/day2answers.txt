@@ -1,0 +1,35 @@
+2d)
+
+    A functional component is a javascript function that returns a React object, as the render() function would return on a normal React class component
+
+    It's a React Component object that you can assign extra functionality, and make use of things like a constructor
+
+    props are passed when you render the component in the ReactDOM, and you can make use of this instantiation when you want to render the same component with different properties
+
+    function Welcome(props) {
+        return <h1>Hello, {props.name}</h1>;
+    }
+    
+    ReactDOM.render(<Welcome name='Big Boss' whatever='exampleproperty'/>, document.getElementById('root'));
+
+3f)
+
+    No, because when writing a functional component we do not have access to the lifecycle methods. There is however a react-functional library that adds this functionality if someone would like to use a syntax like that.
+
+    With this.state or the provided this.setState() method
+
+    By changing the state the ReactDOM re-renders part of the DOM where it sees the data has changed.
+
+    Props are passed to the component in the render() call on the ReactDOM. The props can be changed and they trigger a render, like statem but should be immutable. This is why we use state, to separate the properties passed down to the component to those set by us for the current controller-view. It also ensures the original value passed is kept in the props and can be passed to children.
+
+    Through the render() method call on the ReactDOM object.
+
+    The lifecycle methods are events bound to the ReactDOM and follow states that the component has passed through. We can program custom logic like state changes when these events
+
+5f)
+
+    It binds the object of the class to the defined event so it can be used in the DOM.
+
+    By calling the preventDefault function.
+
+    Nicer syntax. Easy highlighting of binded events because of said different syntax.
